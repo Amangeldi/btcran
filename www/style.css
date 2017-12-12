@@ -1,23 +1,32 @@
-﻿div {
-    margin-bottom: 15px;
+﻿body {
+	margin: 0px;
+}
+div {
     padding: 10px 25px 10px 25px;
     background-color: #dff0d8;
 }
-
+.layout {
+	overflow: hidden;
+	padding: 0px;
+}
 .chat {
-    width: 25%;
+    width: 300px;
     min-height: 300px;
     background-color: #fcf8e3;
     float: left;
 }
-
+.coins-list {
+	width: 210px;
+	float: left;
+    min-height: 300px;
+    background-color: #ffffff;
+}
 .right-column {
-    width: 65%;
     min-height: 300px;
     background-color: #d9edf7;
-    float: right;
+	margin-left: 510px;
 }
 
 .footer {
-    clear: both;
+	
 }
