@@ -1,4 +1,6 @@
-﻿<html>
+﻿<?php
+$STR=<<<ABC
+<html>
     <head>
         <meta charset="utf-8">
 		<link href="style.css" rel="stylesheet">
@@ -16,3 +18,6 @@
         <div class="footer">Подвал</div>
     </body>
 </html>
+ABC;
+echo $STR;
+?>
