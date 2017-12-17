@@ -39,7 +39,7 @@ else {
           //если пароли совпадают, то запускаем пользователю сессию! Можете его поздравить, он вошел!
           $_SESSION['login']=$myrow['_user_login']; 
           $_SESSION['id']=$myrow['user_id'];//эти данные очень часто используются, вот их и будет "носить с собой" вошедший пользователь
-		  echo '<script>location.replace("login.php");</script>'; exit;
+		  echo '<script>location.replace("index.php");</script>'; exit;
           }
 
        else {
